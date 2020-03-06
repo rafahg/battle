@@ -18,6 +18,6 @@ feature 'show health point bar' do
         # fill_in "P2_name", with: "Nima, the wizard"
         # click_button('Submit')
         sign_in_and_play
-        expect(page).to have_content "Nima, the wizard HP 100%"
+        expect(page).to have_content "Nima, the wizard : 60HP"
     end
 end
